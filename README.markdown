@@ -12,7 +12,7 @@ To install:
 
 	Clone this project
 	"gem install bundle" (may require sudo)
-	"bundle"
+	"bundle install"
 	"guard"
 
 Then:
