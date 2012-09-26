@@ -11,3 +11,7 @@ end
 guard 'livereload' do
   watch(%r{.+\.(css|js|html?|php|inc)$})
 end
+
+guard :jammit, :package_on_start => true, :config_path => 'js.config', :output_folder => 'js' do
+  watch(%r{^sjs/(.*)\.js$})
+end
