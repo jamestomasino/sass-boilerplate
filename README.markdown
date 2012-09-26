@@ -13,8 +13,9 @@ To install:
 	Clone this project
 	"gem install bundle" (may require sudo)
 	"bundle install"
+	"gem install guard" (may not be necessary. may also require sudo)
 	"guard"
-
+	
 Then:
 
 	Open folder in localhost, enable LiveReload browser plugin
