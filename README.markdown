@@ -65,11 +65,8 @@ To make content in your HTML localized, add the attribute `data-localize="replac
 
 If you attempt to use data-localize with a key that does not exist in your localization language, the contents of your html element will not be replaced.
 
-By default the page will auto-load the localization for the language listed in your HTML tag (English in the following example):
+To trigger the page localization, simply call the localizePage() global method. It will, by default, use the localization closest to the user's location. This can be overridden by passing the locale as a string parameter to that method. (e.g., `localizePage('es')`).
 
-    <html class="no-js" lang="en">
-
-This can be overridden by calling the global function `localizePage( lang )` with the optional localization lang parameter.
 
 Author
 ======
