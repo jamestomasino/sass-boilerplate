@@ -14,12 +14,12 @@ To install:
 	"gem install bundle" (may require sudo)
 	"bundle install"
 	"gem install guard" (may not be necessary. may also require sudo)
-	"guard"
-	
-Then:
 
+To Run:
+
+	"bundle exec guard"
 	Open folder in localhost, enable LiveReload browser plugin
-	Edit html or scss files to see live reload
+	Edit the HTML, scss, or sjs. CSS and JS will be generated.
 
 
 Usage
@@ -50,7 +50,7 @@ If you like the way SASS organizes and compiles your CSS, then you'll like how [
 The boilerplate uses a modifed [l10n.js](https://github.com/eligrey/l10n.js/). A sample link is included in the HTML connecting to a localization json file. Your localzation json file should have contents like the following:
 
     {
-      "en": "patht/to/english-localization.json",
+      "en": "path/to/english-localization.json",
       "es": "path/to/spanish-localization.json"
     }
 
