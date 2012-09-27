@@ -27,23 +27,23 @@ Usage
 
 ## SASS ##
 
-Coming soon.
+**[Sass](http://sass-lang.com/) makes CSS fun again.** 
 
 ## Compass ##
 
-Coming soon.
+[Compass](http://compass-style.org/) provides us an extensive library for expanding Sass. Specifically, it gives us a lot of helpful mixins for CSS3, Typeography, Reset, Helpers, and Layout. 
 
 ## Susy ##
 
-Coming soon.
+[Susy](http://susy.oddbird.net/) provides us responsive grids on top of Compass without requiring any extra markup. It gets out of your way, handles the math, responsive breakpoints, and a lot more.
 
 ## LiveReload ##
 
-Coming soon.
+When working with SASS, Compass, and Susy, designing your site often requires lots of incremental changes and tweaks. With [LiveReload](https://github.com/guard/guard-livereload), when you make a change, the page refreshes for you. You can keep your focus in your text editor and just watch the magic unfold. While there is a premium LiveReload product you could use, we are using the open-source "guard-livereload" version.
 
 ## Jammit ##
 
-Coming soon.
+If you like the way SASS organizes and compiles your CSS, then you'll like how [Jammit](http://documentcloud.github.com/jammit/) does the same for your JavaScript. It will bundle everything up, minify it, and even gzip for you. Now we can have a single CSS and single JS include, just like you've always wanted.
 
 ## Localization ##
 
@@ -64,8 +64,6 @@ Each localization language file should have contents like the following:
 To make content in your HTML localized, add the attribute `data-localize="replacementstring"` where replacement string is a key in your localization json. By default, all localization keys should begin with `%`. Do not include the `%` in the data-localize attribute in your HTML, though.
 
 If you attempt to use data-localize with a key that does not exist in your localization language, the contents of your html element will not be replaced.
-
-_The current implementation is not set up to use localized HTML content, only plain text. This will be addressed shortly._
 
 By default the page will auto-load the localization for the language listed in your HTML tag (English in the following example):
 
