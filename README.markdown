@@ -75,7 +75,7 @@ To get started, you'll want to become familiar with the individual parts.
 
 - Knockout.js - [This Video](http://channel9.msdn.com/Events/MIX/MIX11/FRM08), [Interactive Tutorial](http://learn.knockoutjs.com/)
 - Backbone.js - [Adobe Article](http://www.adobe.com/devnet/html5/articles/backbone-cellar-pt1.html), [ToDo App Example](http://documentcloud.github.com/backbone/docs/todos.html)
-- Knockback.js - [Basics](http://kmalakoff.github.com/knockback/getting_started_knockback_basics.html)
+- Knockback.js - [Basics](http://kmalakoff.github.com/knockback/getting_started_introduction.html), [Tutorials](http://kmalakoff.github.com/knockback/getting_started_introduction.html)
 
 
 Author
