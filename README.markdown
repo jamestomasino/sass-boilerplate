@@ -21,6 +21,20 @@ Then:
 	Open folder in localhost, enable LiveReload browser plugin
 	Edit html or scss files to see live reload
 
+
+Usage
+============
+
+## Localization ##
+
+The boilerplate uses a modifed [l10n.js](https://github.com/eligrey/l10n.js/). A sample link is included in the HTML connecting to a localization json file. [Click here for instructions on how to set up your localization files](https://github.com/eligrey/l10n.js/#including-localizations-with-link-elements). 
+
+To make content in your HTML localized, add the attribute `data-localize="replacementstring"` where replacement string is a key in your localization json. By default, all localization keys should begin with `%`. Do not include the `%` in the data-localize attribute in your HTML, though.
+
+If you attempt to use data-localize with a key that does not exist in your localization language, the contents of your html element will not be replaced.
+
+
+
 Author
 ======
 
