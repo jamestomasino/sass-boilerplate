@@ -74,7 +74,7 @@ To trigger the page localization, simply call the localizePage() global method. 
 To get started, you'll want to become familiar with the individual parts.
 
 - Knockout.js - [This Video](http://channel9.msdn.com/Events/MIX/MIX11/FRM08), [Interactive Tutorial](http://learn.knockoutjs.com/)
-- Backbone.js - [Adobe Article](http://www.adobe.com/devnet/html5/articles/backbone-cellar-pt1.html), [ToDo App Example](http://documentcloud.github.com/backbone/docs/todos.html)
+- Backbone.js - [Backbone Intro Video](http://yt.cl.nr/PqtYcHyyWJA), [Backbone and Rest](http://stackoverflow.com/questions/9816274/ways-to-save-backbone-js-model-data), [Adobe Article](http://www.adobe.com/devnet/html5/articles/backbone-cellar-pt1.html), [ToDo App Example](http://documentcloud.github.com/backbone/docs/todos.html)
 - Knockback.js - [Basics](http://kmalakoff.github.com/knockback/getting_started_introduction.html), [Tutorials](http://kmalakoff.github.com/knockback/getting_started_introduction.html)
 
 
