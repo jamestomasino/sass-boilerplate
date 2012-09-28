@@ -14,7 +14,6 @@ To install:
     "gem update --system" (may require sudo)
 	"gem install bundle" (may require sudo)
 	"bundle install"
-	"gem install guard" (may not be necessary. may also require sudo)
 
 Troubleshooting:
 
