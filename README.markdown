@@ -53,11 +53,11 @@ When working with SASS, Compass, and Susy, designing your site often requires lo
 
 Running `bundle exec guard` starts the LiveReload watcher.
 
-## Jammit ##
+## Sprockets ##
 
-If you like the way SASS organizes and compiles your CSS, then you'll like how [Jammit](http://documentcloud.github.com/jammit/) does the same for your JavaScript. It will bundle everything up, minify it, and even gzip for you. Now we can have a single CSS and single JS include, just like you've always wanted.
+If you like the way SASS organizes and compiles your CSS, then you'll like how [Sprockets](https://github.com/sstephenson/sprockets) does the same for your JavaScript. It will bundle everything up and minify it. Now we can have a single CSS and single JS include, just like you've always wanted.
 
-By default, the `js.config` is set to generate expanded js for eassy testing. It is our best practice to minify this in production. 
+By default, the `js.config` is set to generate expanded js for easy testing. It is our best practice to minify this before moving to production. 
 
 Running `bundle exec guard` starts the Jammit watcher.
 
