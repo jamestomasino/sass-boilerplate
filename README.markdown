@@ -57,7 +57,7 @@ Running `bundle exec guard` starts the LiveReload watcher.
 
 If you like the way SASS organizes and compiles your CSS, then you'll like how [Sprockets](https://github.com/sstephenson/sprockets) ([guard-sprockets](https://github.com/guard/guard-sprockets)) does the same for your JavaScript. It will bundle everything up and minify it. Now we can have a single CSS and single JS include, just like you've always wanted.
 
-The main javascript file, `sjs/main.js` is configured to be the only javascript file that is compiled. By using the comment-driven Sprockets includes, `//= requile blah`, it will pull in all the libraries or additional files you might need.
+The main javascript file, `sjs/main.js` is configured to be the only javascript file that is compiled. By using the comment-driven Sprockets includes, `//= require jquery`, it will pull in all the libraries or additional files you might need.
 
 Running `bundle exec guard` starts the Sprockets watcher.
 
