@@ -18,7 +18,7 @@ To install:
 
 Troubleshooting:
 
-    If your bundle install explodes when trying to install `eventmachine`, you haven't installed Command Line Tools. See the prerequisites.
+If your bundle install explodes when trying to install `eventmachine`, you haven't installed Command Line Tools. See the prerequisites.
 
 To Run:
 
@@ -32,23 +32,35 @@ Usage
 
 ## SASS ##
 
-**[Sass](http://sass-lang.com/) makes CSS fun again.** 
+**[SASS](http://SASS-lang.com/) makes CSS fun again.** The SASS main file `scss/main.scss` loads in the other partials to keep everything organized during development. The `scss/_variables.scss` file holds all of the SASS variables that will be used throughout the project. Layout and type treatments are kept isolated. The `scss/layout/_layout.scss` and `scss/type/_type.scss` files are the main files for their section. They handle the relative imports for each section for easier extensibility.
+
+By default, the configuration in `config.rb` is set to generate expanded, commented css. It is our best practice to remove comments and serve compressed css for production.
 
 ## Compass ##
 
-[Compass](http://compass-style.org/) provides us an extensive library for expanding Sass. Specifically, it gives us a lot of helpful mixins for CSS3, Typeography, Reset, Helpers, and Layout. 
+[Compass](http://compass-style.org/) provides us an extensive library for expanding SASS. Specifically, it gives us a lot of helpful mixins for CSS3, Typeography, Reset, Helpers, and Layout.
+
+By default, the boilerplate takes advantage of the [Compass Reset](http://compass-style.org/reference/compass/reset/), [vertical-rhythm](http://compass-style.org/reference/compass/typography/vertical_rhythm/), and CSS3 helpers.
+
+Running `bundle exec guard` starts the Compass Watch command.
 
 ## Susy ##
 
-[Susy](http://susy.oddbird.net/) provides us responsive grids on top of Compass without requiring any extra markup. It gets out of your way, handles the math, responsive breakpoints, and a lot more.
+[Susy](http://susy.oddbird.net/) provides us responsive grids on top of Compass without requiring any extra markup. It gets out of your way, handles the math, responsive breakpoints, and a lot more. Though it is available by default, we do not have any Susy layout code implemented in the boilerplate.
 
 ## LiveReload ##
 
 When working with SASS, Compass, and Susy, designing your site often requires lots of incremental changes and tweaks. With [LiveReload](https://github.com/guard/guard-livereload), when you make a change, the page refreshes for you. You can keep your focus in your text editor and just watch the magic unfold. While there is a premium LiveReload product you could use, we are using the open-source "guard-livereload" version.
 
+Running `bundle exec guard` starts the LiveReload watcher.
+
 ## Jammit ##
 
 If you like the way SASS organizes and compiles your CSS, then you'll like how [Jammit](http://documentcloud.github.com/jammit/) does the same for your JavaScript. It will bundle everything up, minify it, and even gzip for you. Now we can have a single CSS and single JS include, just like you've always wanted.
+
+By default, the `js.config` is set to generate expanded js for eassy testing. It is our best practice to minify this in production. 
+
+Running `bundle exec guard` starts the Jammit watcher.
 
 ## Localization ##
 
@@ -68,9 +80,12 @@ Each localization language file should have contents like the following:
 
 To make content in your HTML localized, add the attribute `data-localize="replacementstring"` where replacement string is a key in your localization json. By default, all localization keys should begin with `%`. Do not include the `%` in the data-localize attribute in your HTML, though.
 
+    <h1 data-localize="title">Some Localized Header</h1>
+    <p data-localize="info">Some Localized Info</p>
+
 If you attempt to use data-localize with a key that does not exist in your localization language, the contents of your html element will not be replaced.
 
-To trigger the page localization, simply call the localizePage() global method. It will, by default, use the localization closest to the user's location. This can be overridden by passing the locale as a string parameter to that method. (e.g., `localizePage('es')`).
+To trigger the page localization, simply call the `localizePage()` global method. It will, by default, use the localization closest to the user's location. This can be overridden by passing the locale as a string parameter to that method. (e.g., `localizePage('es')`).
 
 
 Author
