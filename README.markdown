@@ -55,11 +55,11 @@ Running `bundle exec guard` starts the LiveReload watcher.
 
 ## Sprockets ##
 
-If you like the way SASS organizes and compiles your CSS, then you'll like how [Sprockets](https://github.com/sstephenson/sprockets) does the same for your JavaScript. It will bundle everything up and minify it. Now we can have a single CSS and single JS include, just like you've always wanted.
+If you like the way SASS organizes and compiles your CSS, then you'll like how [Sprockets](https://github.com/sstephenson/sprockets) ([guard-sprockets](https://github.com/guard/guard-sprockets)) does the same for your JavaScript. It will bundle everything up and minify it. Now we can have a single CSS and single JS include, just like you've always wanted.
 
-By default, the `js.config` is set to generate expanded js for easy testing. It is our best practice to minify this before moving to production. 
+The default javascript 
 
-Running `bundle exec guard` starts the Jammit watcher.
+Running `bundle exec guard` starts the Sprockets watcher.
 
 ## Localization ##
 
