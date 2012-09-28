@@ -11,9 +11,14 @@ Installation
 To install:
 
 	Clone this project
+    "gem update --system" (may require sudo)
 	"gem install bundle" (may require sudo)
 	"bundle install"
 	"gem install guard" (may not be necessary. may also require sudo)
+
+Troubleshooting:
+
+    If your bundle install explodes when trying to install `eventmachine`, you haven't installed Command Line Tools. See the prerequisites.
 
 To Run:
 
