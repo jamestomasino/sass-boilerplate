@@ -25,6 +25,10 @@ To Run:
 	Open folder in localhost, enable LiveReload browser plugin
 	Edit the HTML, scss, or sjs. CSS and JS will be generated.
 
+After-thoughts:
+
+If you are storing this new project in SVN or git, you probably want to ignore the `Gemfile.lock`, `.sass-cache`, `css`, and `js` files and folders. These are all generated after running through the above installation steps, and being generated files, they are redundant in source control. The `Gemfile.lock` file in particular is important to ignore since it may contain platform specific gem configurations that could cause problems if developers are on Windows vs. Mac, etc.
+
 
 Usage
 ============
