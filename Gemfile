@@ -8,6 +8,7 @@ gem 'guard-livereload'
 gem 'guard-bundler'
 gem 'yajl-ruby'
 gem 'sassy-buttons'
+gem 'sprockets'
 gem 'guard-sprockets'
 gem 'guard-coffeescript'
 gem 'uglifier'
@@ -21,5 +22,6 @@ case RUBY_PLATFORM
     gem 'growl'
     gem 'growl_notify'
   else
+    gem 'rb-inotify'
     gem 'therubyracer'
 end
