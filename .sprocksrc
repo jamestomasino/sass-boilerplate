@@ -1,0 +1,11 @@
+#.sprocksrc
+---
+target: ./js
+paths:
+assets:
+- sjs/main.js
+manifest: false
+digest: false
+gzip: true
+js_compressor: closure
+compress_css: false
