@@ -3,7 +3,7 @@ Prerequisites
 
 This project requires Ruby and RubyGems and the LiveReload browser plugin: [Chrome](https://chrome.google.com/webstore/detail/jnihajbhpnppcggbcgedagnkighmdlei), [Safari](https://github.com/downloads/mockko/livereload/LiveReload-1.6.2.safariextz), [Firefox](https://addons.mozilla.org/firefox/addon/livereload/), IE... Seriously?
 
-If you are using OSX, you should also install [Command Line Tools](http://stackoverflow.com/questions/9329243/xcode-4-4-command-line-tools) before the installation instructions.
+If you are using OSX, you should also install [Command Line Tools](http://connect.apple.com) before the installation instructions.
 
 Installation
 ============
