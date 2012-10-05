@@ -49,7 +49,9 @@ Running `bundle exec guard` starts the Compass Watch command.
 
 ## Susy ##
 
-[Susy](http://susy.oddbird.net/) provides us responsive grids on top of Compass without requiring any extra markup. It gets out of your way, handles the math, responsive breakpoints, and a lot more. Though it is available by default, we do not have any Susy layout code implemented in the boilerplate.
+[Susy](http://susy.oddbird.net/) provides us responsive grids on top of Compass without requiring any extra markup. It gets out of your way, handles the math, responsive breakpoints, and a lot more. Though it is available by default, we do not have any Susy layout code implemented in the boilerplate. More information about creating responsive grids [can be found here](http://www.outlier.com/thinktank/2012-08/creating-adaptive-grid-compass-and-susy).
+
+[Here's one more](http://scottdavis.github.com/blog/2011/12/30/introduction-to-building-websites-using-susy-and-compass-vertical-rhythm/) about using it with Compass's Vertical Rhythm system.
 
 ## LiveReload ##
 
