@@ -7,5 +7,5 @@ assets:
 manifest: false
 digest: false
 gzip: true
-js_compressor: closure
+js_compressor: uglifier
 compress_css: false
