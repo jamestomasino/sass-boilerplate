@@ -1,5 +1,5 @@
 #!/bin/sh
 # Compile Sass/Compass/Susy Compressed
 compass compile --output-style compressed --force
+gzip -9 -c css/main.css > css/main.css.gz 
 sprocketize
-
