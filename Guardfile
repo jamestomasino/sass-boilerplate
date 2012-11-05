@@ -1,4 +1,5 @@
 notification :off
+interactor :off
 
 guard :bundler do
   watch('Gemfile')
