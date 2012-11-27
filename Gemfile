@@ -14,6 +14,8 @@ gem 'guard-sprockets'
 gem 'guard-coffeescript'
 gem 'uglifier'
 gem 'ruby_gntp'
+gem 'guard-haml'
+gem 'guard-copy'
 
 case RUBY_PLATFORM
   when /win32/

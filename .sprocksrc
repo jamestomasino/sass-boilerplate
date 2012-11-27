@@ -1,10 +1,10 @@
 #.sprocksrc
 ---
-target: ./js
+target: ./build/js
 paths:
 assets:
-- sjs/main.js
-- sjs/preload.js
+- src/sjs/main.js
+- src/sjs/preload.js
 manifest: false
 digest: false
 gzip: true

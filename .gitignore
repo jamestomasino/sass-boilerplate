@@ -1,8 +1,3 @@
 .sass-cache/*
-css/main.css
-css/main.css.gz
-js/main.js
-js/main.js.gz
-js/preload.js
-js/preload.js.gz
+build
 Gemfile.lock

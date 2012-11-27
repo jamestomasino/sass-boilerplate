@@ -14,11 +14,11 @@ module Sass::Script::Functions
 end
 
 http_path        = "/"
-css_dir          = "css"
-sass_dir         = "scss"
-javascripts_dir  = "js"
-images_dir       = "images"
-fonts_dir        = "fonts"
+css_dir          = "build/css"
+sass_dir         = "src/scss"
+javascripts_dir  = "build/js"
+images_dir       = "build/images"
+fonts_dir        = "build/fonts"
 project_type     = :stand_alone
 environment      = :development
 output_style     = :expanded
